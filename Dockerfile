@@ -9,5 +9,4 @@ RUN rm -rf bonativo.zip &&\
     cp -rf bonativo/* . &&\
     rm -rf bonativo
 EXPOSE 80
-RUN touch mohit
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
